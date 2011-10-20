@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SubSite>
+
+	<!-- update -->
+	<webservice type="xmlrpc">
+		<operation>update</operation>
+		<url>http://children.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.update</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>update</operation>
+		<url>http://iculture.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.update</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>update</operation>
+		<url>http://v.chinadebate.org/userinfo</url>
+		<address></address>
+		<method>tyuser_services.update</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>update</operation>
+		<url>http://dhg.2u4u.com.cn/userinfo</url>
+		<address></address>
+		<method>tyuser_services.update</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>update</operation>
+		<url>http://new.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.update</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>update</operation>
+		<url>http://academic.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.update</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>update</operation>
+		<url>http://csc.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.update</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>update</operation>
+		<url>http://en.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.update</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>update</operation>
+		<url>http://mlp.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.update</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>update</operation>
+		<url>http://viaton.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.update</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>update</operation>
+		<url>http://chinese.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.update</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>update</operation>
+		<url>http://fushun.2u4u.com.cn/userinfo</url>
+		<address></address>
+		<method>tyuser_services.update</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>update</operation>
+		<url>http://zuowen.2u4u.com.cn/userinfo</url>
+		<address></address>
+		<method>tyuser_services.update</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>update</operation>
+		<url>http://2u4u.com.cn/services/xmlrpc</url>
+		<address></address>
+		<method>tyuser_services.update</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<!-- delete -->
+	<webservice type="xmlrpc">
+		<operation>delete</operation>
+		<url>http://children.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.delete</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>delete</operation>
+		<url>http://iculture.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.delete</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>delete</operation>
+		<url>http://v.chinadebate.org/userinfo</url>
+		<address></address>
+		<method>tyuser_services.delete</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>delete</operation>
+		<url>http://dhg.2u4u.com.cn/userinfo</url>
+		<address></address>
+		<method>tyuser_services.delete</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>delete</operation>
+		<url>http://new.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.delete</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>delete</operation>
+		<url>http://academic.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.delete</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>delete</operation>
+		<url>http://csc.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.delete</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>delete</operation>
+		<url>http://en.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.delete</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>delete</operation>
+		<url>http://mlp.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.delete</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>delete</operation>
+		<url>http://viaton.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.delete</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>delete</operation>
+		<url>http://chinese.fltrp.com/userinfo</url>
+		<address></address>
+		<method>tyuser_services.delete</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>delete</operation>
+		<url>http://fushun.2u4u.com.cn/userinfo</url>
+		<address></address>
+		<method>tyuser_services.delete</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>delete</operation>
+		<url>http://zuowen.2u4u.com.cn/userinfo</url>
+		<address></address>
+		<method>tyuser_services.delete</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+	<webservice type="xmlrpc">
+		<operation>delete</operation>
+		<url>http://2u4u.com.cn/services/xmlrpc</url>
+		<address></address>
+		<method>tyuser_services.delete</method>
+		<paramType>arrays</paramType>
+	</webservice>
+
+</SubSite>

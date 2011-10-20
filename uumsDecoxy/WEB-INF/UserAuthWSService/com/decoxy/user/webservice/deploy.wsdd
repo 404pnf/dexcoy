@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from UserAuthWSService WSDL service -->
+
+  <service name="UserAuthWS" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://webservice.user.decoxy.com"/>
+      <parameter name="wsdlServiceElement" value="UserAuthWSService"/>
+      <parameter name="schemaQualified" value="http://webservice.user.decoxy.com"/>
+      <parameter name="wsdlServicePort" value="UserAuthWS"/>
+      <parameter name="className" value="com.decoxy.user.webservice.UserAuthWS"/>
+      <parameter name="wsdlPortType" value="UserAuthWS"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation xmlns:operNS="http://webservice.user.decoxy.com" xmlns:retNS="http://webservice.user.decoxy.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="loginUser" qname="operNS:loginUser" returnQName="retNS:loginUserReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://webservice.user.decoxy.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:parm" type="tns:string"/>
+      </operation>
+      <operation xmlns:operNS="http://webservice.user.decoxy.com" xmlns:retNS="http://webservice.user.decoxy.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="registerUser" qname="operNS:registerUser" returnQName="retNS:registerUserReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://webservice.user.decoxy.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:parm" type="tns:string"/>
+      </operation>
+      <operation xmlns:operNS="http://webservice.user.decoxy.com" xmlns:retNS="http://webservice.user.decoxy.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="updateUser" qname="operNS:updateUser" returnQName="retNS:updateUserReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://webservice.user.decoxy.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:parm" type="tns:string"/>
+      </operation>
+      <operation xmlns:operNS="http://webservice.user.decoxy.com" xmlns:retNS="http://webservice.user.decoxy.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="deleteUser" qname="operNS:deleteUser" returnQName="retNS:deleteUserReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://webservice.user.decoxy.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:parm" type="tns:string"/>
+      </operation>
+      <operation xmlns:operNS="http://webservice.user.decoxy.com" xmlns:retNS="http://webservice.user.decoxy.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="getUserInformation" qname="operNS:getUserInformation" returnQName="retNS:getUserInformationReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://webservice.user.decoxy.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:parm" type="tns:string"/>
+      </operation>
+      <parameter name="allowedMethods" value="registerUser deleteUser getUserInformation updateUser loginUser"/>
+
+  </service>
+</deployment>
