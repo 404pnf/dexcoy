@@ -1,0 +1,6 @@
+*~
+*.bak
+*_bak
+*.sql
+/uumsDecoxy/WEB-INF/classes/user.xml
+logs/*
